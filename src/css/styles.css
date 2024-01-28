@@ -4,7 +4,7 @@ body {
 }
 
 .cabecalho {
-  height:60px;
+  height:70px;
   background-color: rgb(12, 11, 23);
   border-bottom: 3px solid #342e62;
 }
@@ -19,8 +19,8 @@ body {
   font-family: "Noto Sans", sans-serif;
   display: inline-block;
   margin-right: 25px;
-  padding: 16px;
-  font-size: 18px;
+  padding: 22px;
+  font-size: 16px;
 }
 
 .opcoes li:hover {
@@ -29,24 +29,25 @@ body {
 
 #sobremim {
   position: relative;
+  
 }
 .boasvindas {
-    
   position: absolute;
   font-family: "Noto Sans", sans-serif;
-  top: 50%;
+  text-align: justify;
+  top: 56%;
   left: 38%;
   transform: translate(-50%, -50%);
   z-index: 1;
   color: aliceblue;
-
+  letter-spacing: 1px; 
   padding: 20px; /* Espaçamento interno */
-  
 }
 
 .boasvindas h1{
     font-size: 64px;
     font-weight: bold;
+    letter-spacing: 2px; 
 }
 
 .boasvindas h1,
