@@ -3,28 +3,33 @@ body{
     background-color: rgb(28, 25, 50);
 }
 
-
 .cabecalho{
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
+    height: 80px;
     background-color:rgb(12, 11, 23);
-    align-items: center;
     border-bottom: 2px solid rgb(43, 38, 83);
-    gap: 10px;
 }
 
-.opcoes li a{
-    position: absolute;
-    background-color: aqua;
-    color: beige;   
-    display: flex;
-    align-items: center;
+.opcoes{
+    color: aliceblue;
+    text-align: center;
+
 }
 
-.logoProgramador{
-    display: flex;
-    padding: 20px;
-    width: 32px;
-    height: 32px;
+.opcoes li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+
+#sobreMim{
+    z-index: 1;
+    color: aliceblue;
+    font-size: 32px;
+}
+
+.imagemDeFundo{
+    width: auto;
+    background-repeat: no-repeat;
+    max-width: 100%;
 }
