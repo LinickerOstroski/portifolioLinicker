@@ -1,41 +1,62 @@
-body{
-    margin: 0px;
-    background-color: rgb(28, 25, 50);
+body {
+  margin: 0px;
+  background-color: rgb(28, 25, 50);
 }
 
-.cabecalho{
-    height: 80px;
-    background-color:rgb(12, 11, 23);
-    border-bottom: 2px solid #342e62;
+.cabecalho {
+  height:60px;
+  background-color: rgb(12, 11, 23);
+  border-bottom: 3px solid #342e62;
 }
 
-.opcoes{
-    color: aliceblue;
-    text-align: center;
-    padding: 2px;
-}
-
-.opcoes li{
-    font-family: 'Noto Sans', sans-serif;
-    display: inline-block;
-    margin-right: 15px;
-    padding: 24px;
-    font-size: 18px;
-}
-
-.opcoes li:hover{
-    border-bottom: 1px solid white;
-}
-
-.boasvindas{
-    position: relative;
-    color: aliceblue;
-    font-size: 32px;
+.opcoes {
+  color: aliceblue;
+  text-align: center;
 
 }
-.imagemDeFundo{
-    position: relative;
-    height: auto;
-    background-repeat: no-repeat;
-    max-width: 100%;
+
+.opcoes li {
+  font-family: "Noto Sans", sans-serif;
+  display: inline-block;
+  margin-right: 25px;
+  padding: 16px;
+  font-size: 18px;
+}
+
+.opcoes li:hover {
+  border-bottom: 2px solid aliceblue;
+}
+
+#sobremim {
+  position: relative;
+}
+.boasvindas {
+    
+  position: absolute;
+  font-family: "Noto Sans", sans-serif;
+  top: 50%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: aliceblue;
+
+  padding: 20px; /* Espaçamento interno */
+  
+}
+
+.boasvindas h1{
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.boasvindas h1,
+.boasvindas h3 {
+  margin: 0; /* Remove margens padrão para um layout mais limpo */
+}
+.imagemDeFundo {
+    
+  position: relative;
+  height: auto;
+  background-repeat: no-repeat;
+  max-width: 100%;
 }
