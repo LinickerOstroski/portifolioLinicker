@@ -12,23 +12,30 @@ body{
 .opcoes{
     color: aliceblue;
     text-align: center;
-    padding: 35px;
-
+    padding: 2px;
 }
 
 .opcoes li{
+    font-family: 'Noto Sans', sans-serif;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 15px;
+    padding: 24px;
+    font-size: 18px;
 }
 
-#sobreMim{
-    z-index: 1;
+.opcoes li:hover{
+    border-bottom: 1px solid white;
+}
+
+.boasvindas{
+    position: relative;
     color: aliceblue;
     font-size: 32px;
-}
 
+}
 .imagemDeFundo{
-    width: auto;
+    position: relative;
+    height: auto;
     background-repeat: no-repeat;
     max-width: 100%;
 }
