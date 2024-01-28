@@ -6,12 +6,13 @@ body{
 .cabecalho{
     height: 80px;
     background-color:rgb(12, 11, 23);
-    border-bottom: 2px solid rgb(43, 38, 83);
+    border-bottom: 2px solid #342e62;
 }
 
 .opcoes{
     color: aliceblue;
     text-align: center;
+    padding: 35px;
 
 }
 
@@ -19,8 +20,6 @@ body{
     display: inline-block;
     margin-right: 20px;
 }
-
-
 
 #sobreMim{
     z-index: 1;
