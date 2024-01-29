@@ -102,19 +102,18 @@ body {
 .meusProjetos {
   color: aliceblue;
   font-size: 48px;
-  
 }
 
 .chessburger img {
-  display: flex;
+  display: block;
   width: 1024px;
   justify-content: center;
   margin: 0px auto;
   padding: 40px;
+  max-width: 100%;
 }
 
 #logochess {
-  
   background-color: aliceblue;
   display: flex;
   width: 512px;
@@ -128,40 +127,59 @@ body {
   display: inline-block;
   font-size: 24px;
   color: rgb(196, 84, 47);
-  padding: 20px 0px ;
+  padding: 20px 0px;
   font-family: "Noto Sans", sans-serif;
   letter-spacing: 2px;
 }
 
-.chessburger h4{
+.chessburger h4 {
   font-family: "Noto Sans", sans-serif;
   letter-spacing: 2px;
   text-align: justify;
 }
 
-section{
-  background: linear-gradient(to top, rgba(242, 174, 27, 0.281), rgba(0, 0, 0, 0));
+section {
+  background: linear-gradient(
+    to top,
+    rgba(242, 174, 27, 0.281),
+    rgba(0, 0, 0, 0)
+  );
 }
 
-@media screen and (max-width: 767px) {
-  .boasvindas {
-    font-size: 18px;
-    top: 50%; /* Ajuste conforme necessário */
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+.screamingSouls {
+  color: aliceblue;
+  display: block;
+  padding: 20px 20px 20px 20px;
+}
 
-  .fotoPerfil {
-    width: 100%; /* Ajuste conforme necessário */
-    left: 50%;
-    transform: translateX(-50%);
-    top: auto;
-    bottom: 10%; /* Ajuste conforme necessário */
-  }
+.screamingSouls h1 {
+  display: block;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  letter-spacing: 2px;
+  font-size: 48px;
+}
 
-  #logochess {
-    width: 100%; /* Ajuste conforme necessário */
-  }
+.screamingSouls a {
+  display: inline-block;
+  font-size: 24px;
+  color: rgb(196, 84, 47);
+  padding: 20px 0px;
+  font-family: "Noto Sans", sans-serif;
+  letter-spacing: 2px;
+}
 
-  /* Adicione mais ajustes conforme necessário para outros elementos */
+.screamingSouls h4 {
+  font-family: "Noto Sans", sans-serif;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+.screamingSouls img {
+  display: block;
+  width: 1024px;
+  justify-content: center;
+  margin: 0px auto;
+  padding: 40px;
+  max-width: 100%;
 }
