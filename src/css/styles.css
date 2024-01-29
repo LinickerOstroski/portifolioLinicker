@@ -1,5 +1,5 @@
 body {
-  margin: 0px;
+  margin: 0 auto;
   background-color: rgb(28, 25, 50);
 }
 
@@ -88,10 +88,58 @@ body {
   z-index: 0;
 }
 
-
-.chessburger{
-  color: aliceblue;
+.meusProjetos {
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  letter-spacing: 3px;
+  font-weight: bold;
 }
-.chessburger h3{
-  font-size: 64px;
+
+.chessburger {
+  color: aliceblue;
+  padding: 20px 20px 20px 20px;
+}
+
+.meusProjetos {
+  color: aliceblue;
+  font-size: 48px;
+  
+}
+
+.chessburger img {
+  display: flex;
+  width: 1024px;
+  justify-content: center;
+  margin: 0px auto;
+  padding: 40px;
+}
+
+#logochess {
+  
+  background-color: aliceblue;
+  display: flex;
+  width: 512px;
+  max-width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 20%;
+}
+
+.chessburger a {
+  display: inline-block;
+  font-size: 24px;
+  color: rgb(196, 84, 47);
+  padding: 20px 0px ;
+  font-family: "Noto Sans", sans-serif;
+  letter-spacing: 2px;
+}
+
+.chessburger h4{
+  font-family: "Noto Sans", sans-serif;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+section{
+  background: linear-gradient(to top, rgba(242, 174, 27, 0.281), rgba(0, 0, 0, 0));
 }
