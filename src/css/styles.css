@@ -67,7 +67,6 @@ body {
   padding: 0;
   margin: 0;
   justify-content: center;
-  animation: balanco 5s infinite;
 }
 .boasvindas h1 {
   font-size: 64px;
@@ -142,4 +141,27 @@ body {
 
 section{
   background: linear-gradient(to top, rgba(242, 174, 27, 0.281), rgba(0, 0, 0, 0));
+}
+
+@media screen and (max-width: 767px) {
+  .boasvindas {
+    font-size: 18px;
+    top: 50%; /* Ajuste conforme necessário */
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .fotoPerfil {
+    width: 100%; /* Ajuste conforme necessário */
+    left: 50%;
+    transform: translateX(-50%);
+    top: auto;
+    bottom: 10%; /* Ajuste conforme necessário */
+  }
+
+  #logochess {
+    width: 100%; /* Ajuste conforme necessário */
+  }
+
+  /* Adicione mais ajustes conforme necessário para outros elementos */
 }
