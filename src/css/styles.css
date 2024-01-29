@@ -4,7 +4,7 @@ body {
 }
 
 .cabecalho {
-  height:70px;
+  height: 70px;
   background-color: rgb(12, 11, 23);
   border-bottom: 3px solid #41397a;
 }
@@ -12,7 +12,6 @@ body {
 .opcoes {
   color: aliceblue;
   text-align: center;
-
 }
 
 .opcoes li {
@@ -21,7 +20,7 @@ body {
   margin-right: 25px;
   padding: 22px;
   font-size: 16px;
-  letter-spacing: 2px; 
+  letter-spacing: 2px;
 }
 
 .opcoes li:hover {
@@ -32,8 +31,7 @@ body {
   position: relative;
   align-items: center;
   justify-content: center;
-  min-height: 100vh ;
-  
+  min-height: 100vh;
 }
 .boasvindas {
   position: absolute;
@@ -44,14 +42,20 @@ body {
   transform: translate(-50%, -50%);
   z-index: 1;
   color: aliceblue;
-  letter-spacing: 2px; 
+  letter-spacing: 2px;
   padding: 20px; /* Espaçamento interno */
 }
 
 @keyframes balanco {
-  0% { transform: rotate(0deg); }
-  50% { transform: rotate(5deg); }
-  100% { transform: rotate(0deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .fotoPerfil {
@@ -63,14 +67,13 @@ body {
   padding: 0;
   margin: 0;
   justify-content: center;
-  animation: balanco  5s infinite;
+  animation: balanco 5s infinite;
 }
-.boasvindas h1{
-
-    font-size: 64px;
-    font-weight: bold;
-    letter-spacing: 2px; 
-    align-items: center;
+.boasvindas h1 {
+  font-size: 64px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  align-items: center;
 }
 
 .boasvindas h1,
@@ -78,10 +81,17 @@ body {
   margin: 0; /* Remove margens padrão para um layout mais limpo */
 }
 .imagemDeFundo {
-    
   position: relative;
   height: auto;
   background-repeat: no-repeat;
   max-width: 100%;
   z-index: 0;
+}
+
+
+.chessburger{
+  color: aliceblue;
+}
+.chessburger h3{
+  font-size: 64px;
 }
